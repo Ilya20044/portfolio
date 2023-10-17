@@ -1,0 +1,130 @@
+.catalog{
+    width: 100%;
+    
+}
+
+.catalog__title{
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #7EB693;
+    padding-top: 20px;
+}
+
+.catalog__products{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #274C5B;
+}
+
+.container{
+    background-color: #e7e9ec;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+}
+
+.container__img{
+    padding-top: 10px;
+    width: auto;
+    height: auto;
+}
+
+.container__imgSmall{
+    display: none;
+}
+
+.container__name{
+    width: 118px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #274C5B;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    color: #FFFFFF;
+}
+
+.container__productName{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    letter-spacing: 0.36px;
+    color: #274C5B;
+}
+
+.outline{
+    outline: 1px solid #b7d8e6 ;
+}
+
+.container__footerPrice{
+    display: flex;
+    flex-direction: row;
+}
+
+.prise__discount{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    text-decoration-line: line-through;
+    color: #B8B8B8;
+}
+
+.prise__real{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    color: #274C5B;
+}
+
+.catalog__containers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+@media(max-width:425px){
+    .container__img{
+        display: none;
+    }
+    .container__imgSmall{
+        display: flex;
+        width: 370px;
+        height: 370px;
+    }
+}
+@media(max-width:376px){
+    .container__imgSmall{
+        display: flex;
+        width: 350px;
+        height: 350px;
+    }
+}
+@media(max-width:321px){
+    .container__imgSmall{
+        display: flex;
+        width: 300px;
+        height: 300px;
+    }
+}

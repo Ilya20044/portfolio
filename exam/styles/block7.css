@@ -1,0 +1,129 @@
+.block7{
+    width: 100%;
+}
+
+.block7__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+    background: url(../images/block7__background.png);
+    background-size: 100%;
+    padding: 50px 30px;
+    margin: 50px 50px;
+    background-repeat: no-repeat;
+}
+
+.block7__text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.block7__input{
+    min-width: 350px;
+    min-height: 82px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.36px;
+    color: #525C60;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.block7__buttom{
+    display: flex;
+    align-items: center;
+    background: #274C5B;
+    border: 1px solid #274C5B;
+    border-radius: 16px;
+    margin-left: 15px;
+}
+
+.block7__elements{
+    display: flex;
+}
+
+.block7__link{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.36px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 10px;
+
+}
+.block7__arrow{
+        position: relative;
+        width: 45px;
+        height: 45px;
+        border: 1px solid black;
+        border-radius: 50%;
+        background-color: #274C5B;
+        margin-right: 5px;
+       
+      }
+      .block7__arrow:after {
+        position: absolute;
+        top: 17px;;
+        left: 17px;
+        content: '';
+        display: block;
+        width: 7px;
+        height: 7px;
+        border-left: 3px solid white;
+        border-bottom: 3px solid white;
+        transform: rotate(225deg);
+}
+
+@media(max-width:1051px){
+    .block7__text{
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
+@media(max-width:930px){
+    .block7__link{
+        display: none;
+    }
+    .block7__buttom{
+        background:none;
+        border: 0px;
+    }
+    .block7__content{
+        padding: 5px 5px;
+    }
+    .block7__input{
+        min-width:200px ;
+        min-height: 52px;
+    }
+}
+@media(max-width:595px){
+    .block7__input{
+        width: 50px;
+        display: none;
+    }
+    .block7__text{
+        font-size: 18px;
+    }
+    .block7__content{
+        padding: 2px;
+    }
+    .block7__content{
+        margin: 10px 10px;
+    }
+}

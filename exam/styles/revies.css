@@ -1,0 +1,134 @@
+.revies{
+    width: 100%;
+    background-image: url(../images/reviesFon.png);
+    background-size: 100%;
+}
+
+.revies__title{
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #7EB693;
+}
+
+.revies__bigText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #274C5B;
+}
+
+.revies__circle{
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../images/circle.png);
+}
+
+.revies__text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #525C60;
+}
+
+.revies__name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #274C5B;
+}
+
+.revies__consumer{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #525C60;
+}
+
+.revies__outline{
+    outline: 1px solid #E0E0E0;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.revies__round{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 80px 70px;
+}
+
+.round{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    outline: 5px solid #7EB693;
+    border: 3px solid #FFFFFF;
+    background-color: #F1F1F1;
+    margin-bottom: 25px;
+}
+
+.round__num{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #274C5B;
+}
+
+.round__text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #274C5B;
+}
+
+@media(max-width:410px){
+    .round{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media(max-width:321px){
+    .revies{
+        width: 320px;
+    }
+}

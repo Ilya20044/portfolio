@@ -1,0 +1,120 @@
+.block3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.block3__img{
+    height: auto;
+}
+
+.block3__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.block3__title{
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #7EB693;
+}
+
+.block3__bigText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #274C5B;
+}
+
+.block3__text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    color: #525C60;
+    padding: 20px 10px;
+}
+
+.block3__img{
+    float: left;
+}
+
+.block3__containerTitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.36px;
+    color: #274C5B;
+}
+
+.block3__containerText{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    color: #525C60;
+}
+
+.block3__containerOne{
+    display: flex;
+}
+
+.block3__buttom{
+    background-color: #274C5B;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.block3__buttomLink{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+@media(max-width:1120px){
+    .block3__containerText{
+        font-size: 22px;
+        letter-spacing: 0.3;
+    }
+}
+@media(max-width:1080px){
+    .block3__img{
+        display: none;
+    }
+}
+@media(max-width:600px){
+    .block3__containerText{
+        font-size: 16px;
+        letter-spacing: 0.1;
+        white-space: normal;
+    }
+    .block3__text{
+        font-size: 15px;
+    }
+}
