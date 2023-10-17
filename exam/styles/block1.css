@@ -1,0 +1,128 @@
+.blockOne{
+    width: 100%;
+    height:auto;
+    background: no-repeat;
+    background-image: url(../images/fon.png);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left:60px;
+    padding-bottom: 250px;
+    padding-top: 220px;
+    
+}
+
+.blockOne__title{
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #7EB693;
+
+
+}
+
+.blockOne__text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 84px;
+    letter-spacing: 0.36px;
+    color: #274C5B;
+    padding: 20px 0;
+}
+
+.blockOne__buttom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #274C5B;
+    background-color: #EFD372;
+    border: 1px solid #EFD372;
+    border-radius: 16px;
+    max-width: 219px;
+    padding: 25px 33px;
+}
+
+.blockOne__arrow {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #274C5B;
+   
+  }
+  .blockOne__arrow:after {
+    position: absolute;
+    top: 17px;;
+    left: 17px;
+    content: '';
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+    transform: rotate(225deg);
+  }
+
+  @media(max-width:1350px){
+    .blockOne{
+        padding-top: 120px;
+    }
+    .blockOne__title{
+        font-size: 20px;
+    }
+    .blockOne__text{
+        font-size: 45px;
+    }
+    .blockOne__buttom{
+        width: auto;
+    }
+  }
+  @media(max-width:1024px){
+    .blockOne{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+  }
+  @media(max-width:900px){
+    .blockOne__text{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .blockOne__buttom{
+        width: 150px;
+        padding: 10px 10px;
+        font-size: smaller;
+    }
+  }
+  @media(max-width:660px){
+    .blockOne__text{
+        line-height:20px;
+        font-size:small ;
+    }
+    .blockOne__title{
+        font-size: small;
+        height: 30px
+    }
+    .blockOne__arrow{
+        display: none;
+    }
+    .blockOne__buttom{
+        width: 70px;
+        line-height: 10px;
+        font-size: 10px;
+    }
+  }

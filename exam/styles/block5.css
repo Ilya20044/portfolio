@@ -1,0 +1,127 @@
+.block5{
+    width: 100%;
+    display: flex;
+    margin: 0;
+}
+
+.block5__background{
+    min-width: 720px;
+    min-height: 702px;
+    position: relative;
+    background: url(../images/block5.png); 
+}
+
+.content__title{
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #7EB693;
+}
+
+.content__head{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 58px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #274C5B;
+    padding-bottom: 20px;
+}
+
+.content__textTitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #274C5B;
+}
+
+.content__text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    color: #525C60;
+}
+
+.block5__content{
+    max-width: 720px;
+    max-height: 623px;
+    border-radius: 20px;
+    padding: 20px 40px;
+    padding-left: 60px;
+    position: relative;
+    background-color: white;
+    left:-3%;
+    margin-top: 20px;
+}
+@media(max-width:1260px){
+    .content__text{
+        line-height: 25px;
+    }
+}
+@media(max-width:1140px){
+    .content__head{
+        line-height: 30px;
+        font-size: 24px;
+    }
+}
+@media(max-width:1100px){
+    .content__head{
+        line-height: 25px;
+        font-size: 24px;
+        padding-bottom: 0%;
+    }
+    .content__text{
+        line-height: 20px;
+    }
+    .content__textTitle{
+        font-size: 15px;
+    }
+}
+@media(max-width:1035px){
+    .block5__content{
+        position: absolute;
+        padding:10px 10px;
+        left: 50%;
+        margin-top: 150px;
+    }
+}
+@media(max-width:737px){
+    .block5__background{
+        min-width: 320px;
+    }
+}
+@media(max-width:600px){
+    .block5__background{
+        margin-top: 50px;
+    }
+}
+@media(max-width:602px){
+    .block5__background{
+       margin-top: 0px;
+    }
+    .block5__content{
+        margin-top: 20px;
+    }
+}
+@media(max-width:416px){
+    .block5__content{
+        min-width: 250px;
+        left: 25%;
+    }
+    .content__text{
+        font-size: 15px;
+    }
+}
